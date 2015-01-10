@@ -7,5 +7,9 @@ setup(
     url='https://github.com/brianhou/fuzzy-octo-ironman',
     author='Brian Hou',
     packages=['simple_server'],
-    zip_safe=False
+    entry_points={
+        'console_scripts': [
+            'pyserve=simple_server.__init__:main',
+        ],
+    },
 )
