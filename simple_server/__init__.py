@@ -1,4 +1,4 @@
-"""A version-independent HTTP server.
+"""A Python version-independent HTTP server.
 
 For Python 2, this uses the SimpleHTTPServer module. For Python 3, this uses
 the http.server module.
